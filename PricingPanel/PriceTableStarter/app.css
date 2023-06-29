@@ -46,3 +46,24 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #A2D2FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+}
+
+.panel {
+    background-color: #FFAFCC;
+    border-radius: 15px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+}
