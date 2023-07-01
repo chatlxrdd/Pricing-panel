@@ -124,3 +124,9 @@ body {
 .pricing-button:hover, .pricing-button:focus {
     background-color: #CDB4DB;
 }
+
+@media (min-width: 900px) {
+    .panel {
+        flex-direction: row;
+    }
+}
