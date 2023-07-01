@@ -82,3 +82,32 @@ body {
     margin-bottom: 20px;
     max-width: 100%;
 }
+
+.pricing-header {
+    color: #CDB4DB;
+    font-weight: 600px;
+    letter-spacing: 1px;
+}
+
+.pricing-features {
+    margin: 50px 0 25px;
+    color: black;
+}
+.pricing-features-item {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 15px 0;
+    border-top: 1px solid white;
+}
+
+.pricing-price {
+    color: black;
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+}
+.pricing-features-item:last-child {
+    border-bottom: 1px solid white;
+}
